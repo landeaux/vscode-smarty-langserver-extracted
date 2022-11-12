@@ -1,0 +1,35 @@
+{
+  "name": "vscode-smarty-langserver-extracted",
+  "description": "Smarty language server extracted from vscode-smarty.",
+  "version": "0.0.0",
+  "author": "landeaux",
+  "license": "MIT",
+  "files": [
+    "dist/",
+    "bin/"
+  ],
+  "bin": {
+    "smarty-language-server": "bin/smarty-language-server"
+  },
+  "scripts": {
+    "clean": "rimraf {dist,tmp}/*",
+    "build": "./script/build.sh",
+    "syncdeps": "node ./script/syncdeps.js",
+    "update": "npm run clean && npm run build && npm run syncdeps"
+  },
+  "devDependencies": {
+    "rimraf": "^3.0.2",
+    "semver": "^7.3.8"
+  },
+  "dependencies": {
+    "php-parser": "^3.0.3",
+    "typescript": "^4.3.5",
+    "vscode-css-languageservice": "^5.1.8",
+    "vscode-html-languageservice": "^4.1.1",
+    "vscode-languageserver": "^7.0.0",
+    "vscode-languageserver-textdocument": "^1.0.1"
+  },
+  "keywords": [
+    "language-server-protocol"
+  ]
+}

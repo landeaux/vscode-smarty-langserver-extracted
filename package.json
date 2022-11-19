@@ -1,7 +1,7 @@
 {
   "name": "vscode-smarty-langserver-extracted",
   "description": "Smarty language server extracted from vscode-smarty.",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "author": "landeaux",
   "license": "MIT",
   "files": [

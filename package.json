@@ -4,6 +4,10 @@
   "version": "0.1.0",
   "author": "landeaux",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/landeaux/vscode-smarty-langserver-extracted"
+  },
   "files": [
     "dist/",
     "bin/"

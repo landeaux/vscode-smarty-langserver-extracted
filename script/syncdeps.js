@@ -5,7 +5,7 @@ const semver = require("semver");
 const deps = {};
 
 [
-  path.resolve(__dirname, "..", "tmp/vscode-smarty/package.json"),
+  // path.resolve(__dirname, "..", "tmp/vscode-smarty/package.json"),
   path.resolve(__dirname, "..", "tmp/vscode-smarty/server/package.json"),
 ].forEach((name) => {
   const packageJSON = require(name);
